@@ -15,10 +15,11 @@ public class App {
 
     // 2. Check Even or Odd
     public boolean isEven(int number) {
-        if (number % 2 == 0){
+        if (number % 2 == 0) {
+            return true;
+        } else {
             return false;
         }
-        return true;
     }
 
     // 3. Maximum of Two Numbers
